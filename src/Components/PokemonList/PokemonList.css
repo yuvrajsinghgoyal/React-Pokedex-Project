@@ -1,0 +1,30 @@
+.pokemon-list-rapper{
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+
+.pokemon-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* height: 400px; */
+}
+
+.controls>button{
+   padding: 1rem;
+   border-radius: .5rem;
+   margin-left: 1rem;
+}
+.controls>button:hover{
+    cursor: pointer;
+}
+body{
+    background-color: #c8d1d1;
+    width: 98vw;
+ 
+}
+
